@@ -32,6 +32,8 @@ extern "C" {
 
 typedef struct NVGcontext NVGcontext;
 
+int sizeof_NVGcontext();
+
 struct NVGcolor {
 	union {
 		float rgba[4];
